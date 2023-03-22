@@ -7,10 +7,19 @@
 <body>
   <span class="text" style="white-space: pre-line; font-family: monospace">Theodor Brandt
       <span aria-hidden="true" class="unspaced">———————————————————</span>
-      Email<span aria-hidden="true"> . . . <span class="break">. . . </span></span><a href="/">me<span class="at"></span>brandts.dev</a>
+      Email<span aria-hidden="true"> . . . <span class="break">. . . </span></span><a id="email" href="/">me<span class="at"></span>brandts.dev</a>
       GitHub<span aria-hidden="true">. . . <span class="break">. . . </span></span><a target="_blank" rel="noopener noreferrer" href="https://github.com/urbansson">Urbansson</a>
       LinkedIn<span aria-hidden="true">. . <span class="break">. . . </span></span><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/theodor-brandt/">Theodor Brandt</a>
   </span>
+  <script>
+    const emailButton = document.getElementById('email');
+    emailButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      const name = "me"
+      const domain = "brandts.dev"
+      window.location.href = `mailto:${name}@${domain}`;
+    }, false);
+  </script>
 </body>
 </html>
 
