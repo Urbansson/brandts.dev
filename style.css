@@ -33,13 +33,13 @@ a:hover {
     letter-spacing: -0.17em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 992px) {
     body {
         display: block;
     }
 
     .text {
-        font-size: 14px;
+        font-size: 48px;
         padding: 24px;
         margin: auto;
     }
