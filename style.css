@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Garamond";
+    src:  url('assets/AppleGaramond.woff2') format('woff2'),
+  }
+
 body {
     display: flex;
     justify-content: center;
@@ -9,7 +14,7 @@ body {
     background: transparent;
     color: #c0c9e5;
     white-space: pre-line;
-    font-family: "MyWebFont" monospace;
+    font-family: "Garamond", serif;
     display: block;
     font-size: 16px;
     padding: 32px;
